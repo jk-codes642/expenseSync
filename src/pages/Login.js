@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar2 from '../components/Navbar/Navbar2'
 import LoginSignup from '../components/LoginSignup/LoginSignup'
 import Navbar1 from '../components/Navbar/Navbar1'
 
