@@ -1,70 +1,128 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ExpenseSync
 
-## Available Scripts
+### ExpenseSync is a personal finance tracker designed to help users efficiently manage their finances. With a minimalistic design and powerful features, ExpenseSync provides an intuitive interface to track income, expenses, and overall financial health.
 
-In the project directory, you can run:
 
-### `npm start`
+# Live Demo
+# Key Features
+### Discover powerful tools like dynamic dashboards, transaction management, real-time updates, and secure authentication.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dashboard
+### Dynamic Charts:
+#### Visualize income and expenses through line and pie charts.
+### Transaction Table: 
+#### View transaction history with advanced filtering and sorting options.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Authentication
+### Firebase Integration:
+#### Secure sign-in and sign-up options using Google or email/password authentication.
 
-### `npm test`
+## Data Management
+### Import/Export Transactions::
+#### Easily manage bulk data with CSV file support.
+### Real-Time Updates: 
+#### Firebase ensures data is updated dynamically across the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Categories
+### Income Sources:
+#### Track income from salary, freelance projects, and investments.
+### Expense Categories:
+#### Monitor spending on food, education, entertainment, and more.
 
-### `npm run build`
+# Screenshots
+### Visualize the app's functionality with snapshots of the login page, dashboard, transaction table, and more.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 1. Main Page
+![Screenshot (365)](https://github.com/user-attachments/assets/f4c9d6c9-9763-4a43-9ab1-c53cb2132fc5)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Main page with the minimalistic design and conatains dashboard image in it*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 2. Login Page
+![Screenshot (366)](https://github.com/user-attachments/assets/5ba3da67-112e-4c16-9ecc-14529788d8aa)
 
-### `npm run eject`
+*The user-friendly registration page for creating a new account with Google or email/password authentication.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot (367)](https://github.com/user-attachments/assets/597ac242-7aa0-48f2-8b3f-51d1c8231871)
+*Secure login page that allows users to sign in using Google or their registered email/password credentials.*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 3. Dashboard Overview
+![Screenshot (368)](https://github.com/user-attachments/assets/4b36ffef-9e9f-4001-ad6e-0b31d278f70f)
+*The main dashboard displaying dynamic charts (line and pie) to visualize income and expense trends for better financial insights.*
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 4. Transaction Table 
+![Screenshot (369)](https://github.com/user-attachments/assets/ff11f68c-0e1d-47f8-92a8-38d450f848b1)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*Detailed transaction history with advanced filtering, sorting, and the ability to import/export CSV files for easy data management.*
 
-## Learn More
+# Tech Stack
+### Built with React.js, Firebase, and modern UI libraries for seamless performance and design.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Frontend
+### React.js: 
+#### Build dynamic and responsive user interfaces.
+### Ant Design: 
+#### Stylish and functional UI components.
+### React Toastify: 
+####  User-friendly notifications.
+### React Router DOM: 
+#### Seamless navigation throughout the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Backend
+### Firebase Authentication: 
+#### Manage secure user login and registration.
+### Firestore Database:: 
+#### Store and retrieve transaction data efficiently.
 
-### Code Splitting
+## File(CSV) Management
+### Papa-Parse library:
+#### Use for importing and exportion CSVs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# How It Works
+### Effortlessly track and manage your finances with an intuitive workflow from login to data export.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 1. User Authentication:
+#### Log in securely with Google or email credentials.
+## 2. Dashboard Insights:
+#### Access a real-time overview of your finances with graphs and detailed tables.
+## 3. Transaction Management:
+#### Add, filter, sort, manage and delete your transactions with ease.
+## 4. Data Portability:
+#### Import or export transaction records in CSV format for bulk operations.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Installation and Setup
+### To run this project locally, follow these steps:
 
-### Advanced Configuration
+### 1. Clone the repository
+`git clone expenseSync`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 2. Navigate to the project directory:
+`cd expenseSync`
 
-### Deployment
+### 3. Install dependencies:
+`npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 4. Other libraries to Install:
+#### Here, are some other libraries to install before starting the development server
 
-### `npm run build` fails to minify
+### i. React-Router-Dom:
+`npm i react-router-dom`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### ii. Ant Design library:
+`npm i antd`
+
+### iii. Firebase/Firestore:
+`npm i firebase`
+`npm i firestore`
+
+### iv. Papa-parse:
+`npm i papaparse`
+
+### v. React-Tostify:
+`npm i react-toastify`
+
+
+### 5. Start the development server:
+`npm start`
