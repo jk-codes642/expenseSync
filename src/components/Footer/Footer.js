@@ -66,8 +66,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
-                      // add github repo link
+                      href="https://github.com/jk-codes642/expenseSync"
                       className="hover:underline "
                       target='_blank'
                     >
