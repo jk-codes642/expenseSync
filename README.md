@@ -99,7 +99,7 @@
 ### To run this project locally, follow these steps:
 
 ### 1. Clone the repository
-`git clone expenseSync`
+`git clone https://github.com/jk-codes642/expenseSync`
 
 ### 2. Navigate to the project directory:
 `cd expenseSync`
