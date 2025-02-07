@@ -107,26 +107,5 @@
 ### 3. Install dependencies:
 `npm install`
 
-### 4. Other libraries to Install:
-#### Here, are some other libraries to install before starting the development server
-
-### i. React-Router-Dom:
-`npm i react-router-dom`
-
-### ii. Ant Design library:
-`npm i antd`
-
-### iii. Firebase/Firestore:
-`npm i firebase`
-
-`npm i firestore`
-
-### iv. Papa-parse:
-`npm i papaparse`
-
-### v. React-Tostify:
-`npm i react-toastify`
-
-
-### 5. Start the development server:
+### 4. Start the development server:
 `npm start`
