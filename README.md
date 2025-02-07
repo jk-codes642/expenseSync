@@ -42,12 +42,12 @@
 *Main page with the minimalistic design and conatains dashboard image in it*
 
 ## 2. Login Page
+![Screenshot (367)](https://github.com/user-attachments/assets/597ac242-7aa0-48f2-8b3f-51d1c8231871)
+*Secure login page that allows users to sign in using Google or their registered email/password credentials.*
+
 ![Screenshot (366)](https://github.com/user-attachments/assets/5ba3da67-112e-4c16-9ecc-14529788d8aa)
 
 *The user-friendly registration page for creating a new account with Google or email/password authentication.*
-
-![Screenshot (367)](https://github.com/user-attachments/assets/597ac242-7aa0-48f2-8b3f-51d1c8231871)
-*Secure login page that allows users to sign in using Google or their registered email/password credentials.*
 
 ## 3. Dashboard Overview
 ![Screenshot (368)](https://github.com/user-attachments/assets/4b36ffef-9e9f-4001-ad6e-0b31d278f70f)
