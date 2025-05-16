@@ -76,7 +76,7 @@ const AddExpense = ({
           rules={[{ required: true, message: "Please select a tag!" }]}
         >
           <Select>
-            <Select.Option value="fromFriend">From Friend</Select.Option>
+            <Select.Option value="toFriend">To Friend</Select.Option>
             <Select.Option value="food">Food</Select.Option>
             <Select.Option value="education">Education</Select.Option>
             <Select.Option value="office">Office</Select.Option>
