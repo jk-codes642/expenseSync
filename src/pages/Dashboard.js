@@ -93,9 +93,9 @@ const Dashboard = () => {
       }
     });
 
-    setIncome(incomeTotal);
-    setExpense(expenseTotal);
-    setCurrentBalance(incomeTotal - expenseTotal);
+    setIncome(incomeTotal.toFixed(2));
+    setExpense(expenseTotal.toFixed(2));
+    setCurrentBalance((incomeTotal - expenseTotal).toFixed(2));
   };
 
   useEffect(() => {

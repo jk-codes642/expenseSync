@@ -18,8 +18,6 @@ const AddIncome = ({ isIncomeModalVisible, handleIncomeCancel, onFinish }) => {
         onFinish={(values) => {
           onFinish(values, "income");
           form.resetFields();
-          console.log(`form: ${form}`);
-          console.log(`values: ${values}`);
         }}
       >
         <Form.Item
