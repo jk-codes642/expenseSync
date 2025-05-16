@@ -66,6 +66,7 @@ const AddExpense = ({
           <Select>
             <Select.Option value="online">Online</Select.Option>
             <Select.Option value="offline">Offline</Select.Option>
+            <Select.Option value="directBank">Direct Bank</Select.Option>
           </Select>
         </Form.Item>
         <Form.Item
