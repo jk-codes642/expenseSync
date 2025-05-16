@@ -31,6 +31,11 @@ const TransactionTable = ({
     },
     {
       title: "Tag",
+      dataIndex: "paymentMode",
+      key: "paymentMode",
+    },
+    {
+      title: "Tag",
       dataIndex: "tag",
       key: "tag",
     },

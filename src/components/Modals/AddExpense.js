@@ -58,12 +58,24 @@ const AddExpense = ({
           <DatePicker className="w-full" format="YYYY-MM-DD" />
         </Form.Item>
         <Form.Item
+          label="Payment Mode"
+          name="paymentMode"
+          style={{ fontWeight: 600 }}
+          rules={[{ required: true, message: "Please select a payment mode!" }]}
+        >
+          <Select>
+            <Select.Option value="online">Online</Select.Option>
+            <Select.Option value="offline">Offline</Select.Option>
+          </Select>
+        </Form.Item>
+        <Form.Item
           label="Tag"
           name="tag"
           style={{ fontWeight: 600 }}
           rules={[{ required: true, message: "Please select a tag!" }]}
         >
           <Select>
+            <Select.Option value="fromFriend">From Friend</Select.Option>
             <Select.Option value="food">Food</Select.Option>
             <Select.Option value="education">Education</Select.Option>
             <Select.Option value="office">Office</Select.Option>

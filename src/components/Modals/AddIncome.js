@@ -54,12 +54,25 @@ const AddIncome = ({ isIncomeModalVisible, handleIncomeCancel, onFinish }) => {
           <DatePicker className="w-full" format="YYYY-MM-DD" />
         </Form.Item>
         <Form.Item
+          label="Payment Mode"
+          name="paymentMode"
+          style={{ fontWeight: 600 }}
+          rules={[{ required: true, message: "Please select a payment mode!" }]}
+        >
+          <Select>
+            <Select.Option value="online">Online</Select.Option>
+            <Select.Option value="offline">Offline</Select.Option>
+          </Select>
+        </Form.Item>
+        <Form.Item
           style={{ fontWeight: 600 }}
           label="Tag"
           name="tag"
           rules={[{ required: true, message: "Please select a tag!" }]}
         >
           <Select>
+            <Select.Option value="fromHome">From Home</Select.Option>
+            <Select.Option value="fromFriend">From Friend</Select.Option>
             <Select.Option value="salary">Salary</Select.Option>
             <Select.Option value="freelance">Freelance</Select.Option>
             <Select.Option value="investment">Investment</Select.Option>
