@@ -30,7 +30,7 @@ const TransactionTable = ({
       key: "amount",
     },
     {
-      title: "Tag",
+      title: "Payment Mode",
       dataIndex: "paymentMode",
       key: "paymentMode",
     },

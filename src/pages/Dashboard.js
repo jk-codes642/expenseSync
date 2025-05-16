@@ -52,6 +52,7 @@ const Dashboard = () => {
       amount: parseFloat(values.amount),
       tag: values.tag,
       name: values.name,
+      paymentMode: values.paymentMode
     };
 
     // setTransaction([...transactions, newTransaction])
