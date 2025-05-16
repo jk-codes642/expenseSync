@@ -78,6 +78,7 @@ const AddExpense = ({
           <Select>
             <Select.Option value="toFriend">To Friend</Select.Option>
             <Select.Option value="food">Food</Select.Option>
+            <Select.Option value="rapido">Rapido</Select.Option>
             <Select.Option value="education">Education</Select.Option>
             <Select.Option value="office">Office</Select.Option>
             <Select.Option value="travel">Travel</Select.Option>
